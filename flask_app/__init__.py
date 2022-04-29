@@ -1,3 +1,3 @@
 from flask import Flask
 app = Flask(__name__)
-app.secret.key = "why?"
+app.secret_key = "why?"
